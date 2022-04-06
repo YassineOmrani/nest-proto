@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package taskOne;
 
-service TaskTwoService {
+service TaskOneService {
   rpc parse () returns () {}
 }
 
