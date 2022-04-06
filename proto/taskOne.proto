@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package taskOne;
+
+service TaskTwoService {
+  rpc parse () returns () {}
+}
+
+
