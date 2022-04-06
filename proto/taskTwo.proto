@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package taskTwo;
+
+service TaskTwoService {
+  rpc getPosition (GetPositionRequest) returns (GetPositionResponse) {}
+}
+
+
+
+message GetPositionRequest {
+    int32 number = 1;
+}
+
+message GetPositionResponse {
+    int32 position = 1;
+}
